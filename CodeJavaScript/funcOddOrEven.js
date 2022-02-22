@@ -4,9 +4,9 @@ Spanish: Crear una **función** que me diga si un numero ingresado por usuario e
 */
 
 //let num = prompt('Ingress a number int');
-let num = 31;
-let result = (num % 2);
-function OddEven(num, result) {
+let num = 207548;
+function OddEven(num) {
+    let result = (num % 2);
     if( result === 0)
     {
         console.log('The' + num + 'Is Odd');
@@ -19,7 +19,7 @@ function OddEven(num, result) {
     }
 }
 console.info(OddEven);
-OddEven(num, result);
+OddEven(num);
 
 
 
